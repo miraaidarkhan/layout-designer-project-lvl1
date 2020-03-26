@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ЖК Лунное море</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.svg" height="30px" width="30px" alt="logo">
+            <p>Лунное море</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#features">Преимущества</a>
+                </li>
+                <li><a href="#about">О ЖК</a></li>
+                <li><a href="#text-about">Место для отдыха</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="picture">
+        <img src="images/logo.svg" alt="logo" width="150px" height="150px">
+        <h1>ЖК "Лунное море" </br> <span>Место, откуда не хочется улетать</span></h1>
+        <div class="container"><a href="#form"><button class="btn">Забронировать</button></a></div>
+    </div>
+    <section class="features" id="features">
+        <div class="column">
+            <h1>Уникальный вид</h1>
+            <p>Вид на космос из вашего дома. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+        </div>
+        <div class="column">
+            <h1>Инфраструктура</h1>
+            <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км от поселканаходится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+        </div>
+        <div class="column">
+            <h1>Близость к Москве</h1>
+            <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="text-about">
+            <h1>О ЖК "Лунное море"</h1>
+            <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется, современные скоростные трассы позволяют без труда добираться до столицы и обратно. <br>
+            <br>
+            Мы построили наши дома на самом близком к Солнцу спутнике, всего 380 тысяч км от Земли.</p>
+        </div>
+        <div class="image-moon">
+        </div>
+    </section>
+    <section class="about bgc-white">
+        <div class="image-moon-2">
+        </div>
+        <div class="text-about" id="text-about">
+            <h1>Места для отдыха</h1>
+            <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего 200 км от вашего дома. <br> <br> Дома располагаются в новом районе "Лунные моры". При необходимости есть автобусы до района "Лунный материк"</p>
+        </div>
+    </section>
+    <section class="form" id="form">
+        
+        <form action="" method="POST">
+            <h1>Оставьте заявку сегодня!</h1>
+            <fieldset>
+                <legend>Параметры квартиры</legend>
+                <label for="rooms">Количество комнат: </label>
+                <select name="rooms" id="rooms">
+                    <option value="room-1">1</option>
+                    <option value="room-2">2</option>
+                    <option value="room-3">3</option>
+                    <option value="room-4">4</option>
+                    <option value="room-5">5</option>
+                </select> <br>
+            <label for="rooms">Отделка:</label>
+                <select name="decor" id="decor">
+                    <option value="with-decor">Без отделки</option>
+                    <option value="without-decor">С отделкой</option>
+                </select> <br>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <label for="username"> Имя:</label>
+                    <input type="text" name="username" id="username"><br>
+                <label for="phone-number">Телефон:</label>
+                    <input type="text" name="phone" id="phone-number"><br>
+                <label for="e-mail">E-mail: </label>
+                    <input type="text" name="e-mail" id="e-mail">
+            </fieldset>
+            <input type="submit" name="button" value="Отправить">
+        </form>
+    </section>
+    <footer>
+        <div class="text">
+            <div class="footer-logo">
+                <img src="images/logo.svg" height="30px" width="30px" alt="logo">
+                <p>Лунное море</p>
+            </div>
+            <p>@ 2032</p>
+        </div>
+        <div class="documentation">
+            <p>Проектная документация</p>
+            <ul>
+                <li>Скачать</li>
+                <li>Посмотреть на сайте</li>
+            </ul>
+        </div>
+        <div class="builder">
+            <p>О застройщике</p>
+            <ul>
+                <li>Отзывы</li>
+                <li>Сайт компании</li>
+            </ul>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
